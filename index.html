@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <a href="/">Apparel Studio</a>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Company</a></li>
+          </ul>
+        </nav>
+      </div>
+      <main>
+        <section class="form-container">
+          <h1 class="pageTitle">Send Us a Message</h1>
+          <form action="#" id="contactForm">
+            <div class="input-fields">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name (Required)"
+                required
+              />
+            </div>
+            <div class="input-fields">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email (Required)"
+                required
+              />
+            </div>
+            <div class="input-fields">
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Subject"
+              />
+            </div>
+            <div class="input-fields">
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Your message goes here... (Required)"
+                required
+              ></textarea>
+            </div>
+            <input type="submit" class="submit-btn" value="Submit form" />
+          </form>
+        </section>
+      </main>
+      <footer class="toolbar">
+        <div class="leftBtns">
+          <button id="btn1" type="button">ClickMe 1</button>
+          <button id="btn2" type="button">ClickMe 2</button>
+        </div>
+        <div class="rightBtns">
+          <button id="btn3" type="button">ClickMe 3</button>
+          <button id="btn4" type="button">ClickMe 4</button>
+        </div>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
