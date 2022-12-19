@@ -25,7 +25,7 @@ class contact {
     }
 
     onSubmit() {
-        let result = `Thank you for contact us. The following message has been sent successfully.\n\nName: ${this.name}\nEmail: ${this.email}\nSubject: ${this.subject}\nMessage: ${this.message}`;
+        let result = `Thank you for contacting us. The following message has been sent successfully.\n\nName: ${this.name}\nEmail: ${this.email}\nSubject: ${this.subject}\nMessage: ${this.message}`;
         alert(result);
     }
 
