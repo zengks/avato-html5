@@ -154,7 +154,6 @@ form {
 .submit-btn:hover {
     background-color: #F3F3FB;
     color: #000000;
-    border: 1px solid #000000;
     text-decoration: underline;
 }
 
