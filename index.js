@@ -9,6 +9,7 @@ const btn2 = document.getElementById('btn2');
 const btn3 = document.getElementById('btn3');
 const btn4 = document.getElementById('btn4');
 
+// Hide/Unhide the navbar items when clicking on the hamburger menu icon
 menuBtn.addEventListener('click', () => {
     body.classList.toggle('is-active');
 })
